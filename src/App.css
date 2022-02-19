@@ -6,33 +6,32 @@
   --color-D: #D93D04;
   --color-E: #F2F2F2;
   /* Color Theme A */
-  --color-A1: #BABABA;
-  --color-A2: #7A7A7A;
-  --color-A3: #FAFAFA;
-  --color-A4: #3B3B3B;
-  --color-A5: #E0E0E0;
+  --color-A1: #F9D507;
+  --color-A2: #DBA607;
+  --color-A3: #F29F05;
+  --color-A4: #DB7807;
+  --color-A5: #F96507;
   /* Color Theme B */
-  --color-B1: #bf5e3b;
-  --color-B2: #803f28;
-  --color-B3: #401f14;
-  --color-B4: #e67147;
+  --color-B1: #B36404;
+  --color-B2: #734002;
+  --color-B3: #FF8F05;
+  --color-B4: #D97904;
   /* Color Theme  C*/
-  --color-C1: #2871bf;
-  --color-C2: #1b4b80;
-  --color-C3: #0d2640;
-  --raw-C3: 13, 38, 64;
-  --color-C4: #3088e6;
+  --color-C1: #F9A107;
+  --color-C2: #DB7407;
+  --color-C3: #DB3607;
+  --raw-C3: 219, 54, 7;
+  --color-C4: #F91A07;
   /* Color Theme D */
-  --color-D1: #283cbf;
-  --color-D2: #1b2880;
-  --color-D3: #0d1440;
-  --color-D4: #3048e6;
-
-    /* Color Theme E */
-    --color-E1: #283cbf;
-    --color-E2: #1b2880;
-    --color-E3: #0d1440;
-    --color-E4: #3048e6;
+  --color-D1: #992B03;
+  --color-D2: #591902;
+  --color-D3: #E64105;
+  --color-D4: #BF3604;
+  /* Color Theme E */
+  --color-E1: #B3B3B3;
+  --color-E2: #737373;
+  --color-E3: #FFFFFF;
+  --color-E4: #D9D9D9;
 
   --Header-size: 57px;
   --Footer-size: 45px;
@@ -43,17 +42,17 @@
 }
 body {
   background-color: var(--color-E);
-  color: var(--color-A4);
+  color: var(--color-E3);
 }
 
 
 ::selection{
-  background-color: var(--color-A2); /* WebKit/Blink Browsers */
-  color: var(--color-A3);
+  background-color: var(--color-E2); /* WebKit/Blink Browsers */
+  color: var(--color-E3);
 }
 ::-moz-selection{
-  background-color: var(--color-A2); /* WebKit/Blink Browsers */
-  color: var(--color-A3);
+  background-color: var(--color-E2); /* WebKit/Blink Browsers */
+  color: var(--color-E3);
 }
 
 /* General Settings */
@@ -71,7 +70,7 @@ body {
   margin: 0;
   width: auto;
   min-height: calc(100vh - var(--HeaderFooter));
-  background-color: var(--color-A3);
+  background-color: var(--color-D4);
   display: flex;
   flex-direction: column;
   justify-content: center;

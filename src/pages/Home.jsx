@@ -1,4 +1,5 @@
 import React from 'react'
+import { MdOutlineSurfing } from 'react-icons/md'
 import './styles/Home.css'
 
 class Home extends React.Component{
@@ -12,8 +13,16 @@ class Home extends React.Component{
                             </div>
                         </section>
                         <section id="HomeInfo">
-                            <h1 id="HomeInfo-title">Bienvenido!!</h1>
-                            <p  id="HomeInfo-text">pideindo tequila</p>
+                            <div id="HomeDescription">
+                                <h2 id='HomeDescription-title'>Surfi</h2>
+                                <p id='HomeDescription-text'>Improve UX when surfing on internet and optimize use of web content.
+Discover a new internet surfing experience by innovating current searching tools.
+Save internet users time and prevent misinformation.
+Provide a tool for websites to know what their users think about them.</p>
+                            </div>
+                            <div id="HomeLogo">
+                                <MdOutlineSurfing id="HomeItem-icon"/>    
+                            </div>
                         </section>
                 </div>
             )
