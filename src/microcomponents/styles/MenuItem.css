@@ -1,0 +1,10 @@
+.MenuItem{
+    display: flex;
+}
+.MenuItem a{
+    color: var(--color-A);
+}
+
+.MenuItem a:hover{
+    color: var(--color-B);
+}
