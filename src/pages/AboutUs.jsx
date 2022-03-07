@@ -13,14 +13,14 @@ class AboutUs extends React.Component{
                         </section>
                         <section id="AboutUsInfo">
                             <h1 id="AboutUsInfo-title">Mision</h1>
-                            <p  id="AboutUsInfo-text">Mejorar la experience de busqyeda en intenet</p>
+                            <p  id="AboutUsInfo-text">Mejorar la experience de búsqueda en internet</p>
                             <h1 id="AboutUsInfo-title">Vision</h1>
                             <p  id="AboutUsInfo-text">Lograr vivir en un mundo con informacion bien distribuida</p>
                             <h1 id="AboutUsInfo-title">Integrantes</h1>
                             <p  id="AboutUsInfo-text">
-                                Juan Andres
+                                Juan Andrés
                                 Juan Carlitos
-                                Juan Alegria
+                                Juan Alegría
                                 Luccas
                                 Laura
                                 David
