@@ -6,7 +6,7 @@
 
 #HomeImg{
     color: var(--color-E);
-    min-height: calc(100vh - var(--Header-size));
+    min-height: calc(120vh - var(--Header-size));
     background-image: url('../../assets/img/HomeBackground640.jpg');
 	background-size:cover;
 	background-repeat: no-repeat;

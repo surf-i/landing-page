@@ -13,7 +13,7 @@
 	flex: 1;
 	height: inherit;
 	display: inherit;
-	justify-content: space-between;
+	justify-content: center;
 }
 .footer-text{
 	font-size: 1rem;

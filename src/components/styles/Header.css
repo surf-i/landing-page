@@ -10,6 +10,7 @@
 	color: var(--color-A);
 	transition: 500ms background-color cubic-bezier(0.6, -0.28, 0.735, 0.045);
 	z-index: 1000;
+	display: none;
 }
 /* .header:hover{
 	background-color: var(--color-A);
