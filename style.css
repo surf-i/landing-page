@@ -36,9 +36,9 @@
 	2. Navbar
 	3. Buttons
 	4. Hero
-	5. Marketing
-	6. Testimonials
-	7. Pricing
+	5. Features
+	6. Team
+	7. Enterprises
 	8. Call to Action
 	9. Footer
 	10. Media Queries
@@ -268,10 +268,10 @@ section {
 }
 
 /* ==============================================
-   5. Marketing
+   5. Features
 ===============================================*/
 
-#marketing p {
+#features p {
 	font-size: 20px;
 	font-weight: 300;
 	color: #8da2b5;
@@ -279,7 +279,7 @@ section {
 	padding: 0px;
 }
 
-#marketing span {
+#features span {
 	font-weight: 400;
 	color: #f79000;
 	text-transform: uppercase;
@@ -291,10 +291,10 @@ section {
 }
 
 /* ==============================================
-   6. Testimonials
+   6. Team
 ===============================================*/
 
-#testimonials {
+#team {
 	background-color: #f6f8f9;
 	border-top: 1px solid #F8F9FB;
 	border-bottom: 1px solid #F8F9FB;
@@ -372,10 +372,10 @@ section {
 }
 
 /* ==============================================
-   7. Pricing
+   7. Enterprises
 ===============================================*/
 
-.pricing-box {
+.enterprises-box {
 	background-color: #ffffff;
 	padding: 40px 20px;
 	border: 1px solid #F8F9FB;
@@ -384,54 +384,54 @@ section {
 	margin-top: 30px;
 }
 
-.pricing-box h3 {
+.enterprises-box h3 {
 	font-size: 22px;
 	font-weight: 300;
 	letter-spacing: .1em;
 	color: #f79000;
 }
 
-.pricing-box h6 {
+.enterprises-box h6 {
 	font-size: 60px;
 	font-weight: 700;
 	color: #3a3f52;
 	margin-bottom: 0px;
 }
 
-.pricing-box p {
+.enterprises-box p {
 	font-size: 17px;
 	margin-top: 15px;
 	padding: 0px;
 }
 
-.pricing-box ul {
+.enterprises-box ul {
 	padding-left: 10px;
 }
 
-.pricing-box li {
+.enterprises-box li {
 	font-size: 14px;
 	font-weight: 300;
 	color: #8da2b5;
 	letter-spacing: .1em;
 }
 
-.pricing-box span {
+.enterprises-box span {
 	font-weight: 500;
 	color: #f79000;
 }
 
-.pricing-box small {
+.enterprises-box small {
 	color: #8da2b5;
 	letter-spacing: .2em;
 }
 
-.pricing-box i {
+.enterprises-box i {
 	font-size: 20px;
 	color: #f79000;
 	margin-right: 10px;
 }
 
-.pricing-box .demo {
+.enterprises-box .demo {
 	color: #ED9D25 !important;
 }
 
@@ -683,15 +683,15 @@ footer small {
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
-	.pricing-box h3 {
+	.enterprises-box h3 {
 		font-size: 17px;
 	}
 
-	.pricing-box p {
+	.enterprises-box p {
 		font-size: 14px;
 	}
 
-	.pricing-box li {
+	.enterprises-box li {
 		font-size: 12px;
 	}
 
