@@ -346,8 +346,8 @@ section {
 
 .profile-picture {
 	display: inline-block;
-	width: 60px;
-	height: 60px;
+	width: 130px;
+	height: 130px;
 	border-radius: 50%;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -360,6 +360,22 @@ section {
 
 .team-two {
 	background-image: url('images/team/2.jpeg');
+}
+
+.team-three {
+	background-image: url('images/team/3.jpeg');
+}
+
+.team-four {
+	background-image: url('images/team/4.jpeg');
+}
+
+.team-five {
+	background-image: url('images/team/5.jpeg');
+}
+
+.team-six {
+	background-image: url('images/team/6.jpeg');
 }
 
 .team-undefined {
