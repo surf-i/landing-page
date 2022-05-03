@@ -1,0 +1,13 @@
+#NotFound{
+    justify-content: center;
+    color: var(--color-A);
+    background-color: var(--color-C3);
+}
+
+.NotFound-main{
+    display:flex; 
+    justify-content: center; 
+    align-items:center;
+    text-Align:center;
+    font-family: 'Merriweather Sans', Courier, monospace;
+}
