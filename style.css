@@ -354,34 +354,6 @@ section {
 	background-size: cover;
 }
 
-.team-one {
-	background-image: url('images/team/1.jpeg');
-}
-
-.team-two {
-	background-image: url('images/team/2.jpeg');
-}
-
-.team-three {
-	background-image: url('images/team/3.jpeg');
-}
-
-.team-four {
-	background-image: url('images/team/4.jpeg');
-}
-
-.team-five {
-	background-image: url('images/team/5.jpeg');
-}
-
-.team-six {
-	background-image: url('images/team/6.jpeg');
-}
-
-.team-undefined {
-	background-image: url('images/team/round_logo.png');
-}
-
 .personal-info {
 	padding: 5px 0 20px 0;
 	border-bottom: 1px solid #edf1f2;
