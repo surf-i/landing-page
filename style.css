@@ -45,9 +45,8 @@
 
    //////////////////////////*/
 
-
 body {
-	font-family: 'Roboto', sans-serif;
+	font-family: "Roboto", sans-serif;
 	color: #3a3f52;
 }
 
@@ -69,8 +68,8 @@ h5 {
 p {
 	font-size: 14px;
 	font-weight: 400;
-	letter-spacing: .05em;
-	color: #FF904D;
+	letter-spacing: 0.05em;
+	color: #ff904d;
 }
 
 ul {
@@ -110,7 +109,7 @@ section {
 .divider-light {
 	padding: 2rem 0 0;
 	margin: 2rem 0 0;
-	border-top: 1px solid #edf1f2
+	border-top: 1px solid #edf1f2;
 }
 
 /* ==============================================
@@ -119,7 +118,7 @@ section {
 
 .custom-navbar {
 	background-color: #ffffff !important;
-	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .09);
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.09);
 	height: 70px;
 	max-height: 70px;
 }
@@ -145,12 +144,12 @@ section {
 .nav-custom-link {
 	font-size: 12px;
 	font-weight: 400;
-	letter-spacing: .05em;
+	letter-spacing: 0.05em;
 	margin-top: 5px;
 }
 
 .navbar a {
-	color: #53627C !important;
+	color: #53627c !important;
 }
 
 .nav-right {
@@ -169,7 +168,7 @@ section {
 	font-size: 14px;
 	font-weight: 400;
 	border-radius: 3px !important;
-	box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .05), 0 1px 2px 0 rgba(0, 0, 0, .08);
+	box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.05), 0 1px 2px 0 rgba(0, 0, 0, 0.08);
 }
 
 .btn:hover {
@@ -180,7 +179,7 @@ section {
 	background-color: #f79000;
 	color: #ffffff;
 	padding: 10px 25px;
-	letter-spacing: .1em;
+	letter-spacing: 0.1em;
 	margin-top: 25px;
 	display: inline-block;
 }
@@ -193,7 +192,7 @@ section {
 .btn-demo {
 	color: #ffffff;
 	background-color: #f79000;
-	letter-spacing: .1em;
+	letter-spacing: 0.1em;
 	padding: 15px 48px;
 	display: inline-block;
 	width: 100%;
@@ -222,7 +221,7 @@ section {
 .btn-buy {
 	color: #ffffff;
 	background-color: #f79000;
-	letter-spacing: .1em;
+	letter-spacing: 0.1em;
 	padding: 15px 48px;
 	display: inline-block;
 	width: 100%;
@@ -255,11 +254,19 @@ section {
 	padding: 0px;
 }
 
+li {
+	font-size: 24px;
+	font-weight: 300;
+	color: #8da2b5;
+	margin-bottom: 0px;
+	padding: 0px;
+}
+
 #hero span {
 	font-weight: 400;
 	color: #f79000;
 	text-transform: uppercase;
-	letter-spacing: .05em;
+	letter-spacing: 0.05em;
 }
 
 #hero .container {
@@ -283,7 +290,7 @@ section {
 	font-weight: 400;
 	color: #f79000;
 	text-transform: uppercase;
-	letter-spacing: .05em;
+	letter-spacing: 0.05em;
 }
 
 .content-box {
@@ -296,13 +303,14 @@ section {
 
 #team {
 	background-color: #f6f8f9;
-	border-top: 1px solid #F8F9FB;
-	border-bottom: 1px solid #F8F9FB;
+	border-top: 1px solid #f8f9fb;
+	border-bottom: 1px solid #f8f9fb;
 }
 
 .testimonial-box {
 	background-color: #ffffff;
-	box-shadow: 0 0 1px 0 rgba(0, 12, 32, 0.04), 0 10px 16px 0 rgba(10, 31, 68, 0.06);
+	box-shadow: 0 0 1px 0 rgba(0, 12, 32, 0.04),
+		0 10px 16px 0 rgba(10, 31, 68, 0.06);
 	border-radius: 20px;
 	padding: 20px 30px;
 	margin-top: 30px;
@@ -311,7 +319,7 @@ section {
 .testimonial-box h6 {
 	font-size: 22px;
 	font-weight: 700;
-	letter-spacing: .05em;
+	letter-spacing: 0.05em;
 	margin-top: 5px;
 	margin-bottom: 0px;
 }
@@ -366,16 +374,17 @@ section {
 .enterprises-box {
 	background-color: #ffffff;
 	padding: 40px 20px;
-	border: 1px solid #F8F9FB;
+	border: 1px solid #f8f9fb;
 	border-radius: 6px;
-	box-shadow: 0 0 1px 0 rgba(0, 12, 32, 0.04), 0 10px 16px 0 rgba(10, 31, 68, 0.06);
+	box-shadow: 0 0 1px 0 rgba(0, 12, 32, 0.04),
+		0 10px 16px 0 rgba(10, 31, 68, 0.06);
 	margin-top: 30px;
 }
 
 .enterprises-box h3 {
 	font-size: 22px;
 	font-weight: 300;
-	letter-spacing: .1em;
+	letter-spacing: 0.1em;
 	color: #f79000;
 }
 
@@ -400,7 +409,7 @@ section {
 	font-size: 14px;
 	font-weight: 300;
 	color: #8da2b5;
-	letter-spacing: .1em;
+	letter-spacing: 0.1em;
 }
 
 .enterprises-box span {
@@ -410,7 +419,7 @@ section {
 
 .enterprises-box small {
 	color: #8da2b5;
-	letter-spacing: .2em;
+	letter-spacing: 0.2em;
 }
 
 .enterprises-box i {
@@ -420,7 +429,7 @@ section {
 }
 
 .enterprises-box .demo {
-	color: #ED9D25 !important;
+	color: #ed9d25 !important;
 }
 
 /* ==============================================
@@ -442,7 +451,7 @@ section {
 	font-size: 20px;
 	font-weight: 300;
 	color: #ffffff;
-	opacity: .8;
+	opacity: 0.8;
 	margin-bottom: 40px;
 }
 
@@ -473,7 +482,7 @@ footer {
 footer h5 {
 	color: #aeb3bd;
 	text-transform: uppercase;
-	letter-spacing: .1em;
+	letter-spacing: 0.1em;
 	margin-bottom: 20px;
 }
 
@@ -488,7 +497,7 @@ footer p {
 footer li {
 	font-size: 14px;
 	font-weight: 300;
-	letter-spacing: .05em;
+	letter-spacing: 0.05em;
 	line-height: 1.5;
 	margin-bottom: 10px;
 }
@@ -596,7 +605,7 @@ footer small {
 	}
 
 	.nav-custom-link {
-		border-bottom: 1px solid #EEE;
+		border-bottom: 1px solid #eee;
 	}
 
 	.navbar-nav {
@@ -613,7 +622,6 @@ footer small {
 		border: 0px;
 		padding: 0px;
 		box-shadow: none;
-
 	}
 
 	.btn-demo-small:hover {
@@ -621,11 +629,10 @@ footer small {
 		border: 0px;
 		padding: 0px;
 		box-shadow: none;
-
 	}
 
 	.btn-demo-small a {
-		color: #53627C !important;
+		color: #53627c !important;
 	}
 
 	.nav-custom-link {
