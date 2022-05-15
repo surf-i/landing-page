@@ -1,0 +1,14 @@
+name: Page Speed Insights Workflow
+on: push
+
+jobs:
+  psi-landing:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Running Page Speed Insights on Landing Page
+        uses: jakepartusch/psi-action@v1.2
+        id: psi-landing
+        with:
+          url: "https://surfi.netlify.app"
+          threshold: 70
+          strategy: desktop
