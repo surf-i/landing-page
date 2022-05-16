@@ -41,7 +41,8 @@
             <a class="nav-link" href="index.html">Home <i class="icon ion-ios-arrow-forward icon-mobile"></i></a>
           </li>
           <li class="nav-item nav-custom-link">
-            <a class="nav-link" href="index.html#features">Features <i class="icon ion-ios-arrow-forward icon-mobile"></i></a>
+            <a class="nav-link" href="index.html#features">Features <i
+                class="icon ion-ios-arrow-forward icon-mobile"></i></a>
           </li>
           <li class="nav-item nav-custom-link">
             <a class="nav-link" href="index.html#team">Team <i class="icon ion-ios-arrow-forward icon-mobile"></i></a>
@@ -65,9 +66,14 @@
             background="transparent" speed="1" style="width: 80%; height: 80%;" loop autoplay></lottie-player>
         </div>
         <div class="col-md-8 content-box">
+          <p class="mb-5"><u>*We are waiting for the approval and authentication of our plugin in the Chrome Store.
+              <br> Please visit us again in: <u id="timer"></u></u>
+          </p>
+
           <h3>To install Surfi you need to:</h3>
           <ol>
-            <li>Download the extension from the <a href="https://chrome.google.com/webstore/search/surfi" download>Chrome Store</a>.</li>
+            <li>Download the extension from the <a href="https://chrome.google.com/webstore/search/surfi"
+                download>Chrome Store</a>.</li>
             <li>Make sure to activate the permissions required by Surfi.</li>
             <li>Now you are ready to enjoy a new internet surfing experience!</li>
             <li>If you have any feedback do not hesitate to contact us at surfi.team@gmail.com.</li>
@@ -127,6 +133,30 @@
     crossorigin="anonymous"></script>
   <!-- Animations -->
   <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+  <script>
+    // Set the date we're counting down to
+    var countDownDate = new Date("May 22, 2022 15:00:00").getTime();
+    // Update the count down every 1 second
+    var x = setInterval(function () {
+      // Get today's date and time
+      var now = new Date().getTime();
+      // Find the distance between now and the count down date
+      var distance = countDownDate - now;
+      // Time calculations for days, hours, minutes and seconds
+      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+      // Output the result in an element with id="demo"
+      document.getElementById("timer").innerHTML = days + "d " + hours + "h "
+        + minutes + "m " + seconds + "s ";
+      // If the count down is over, write some text 
+      if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("timer").innerHTML = "EXPIRED";
+      }
+    }, 1000);
+  </script>
 </body>
 
 </html>
